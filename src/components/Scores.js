@@ -4,13 +4,12 @@ function Scores(scoreData) {
   console.log(scoreData)
   return (
     <div>
-
-
       {scoreData?.scoreData?.map((score, index) => (
         <ul>
           <li>
             {score.date}
-            <br ></br>
+          </li>
+          <li>
             {score.score}
           </li>
         </ul>
